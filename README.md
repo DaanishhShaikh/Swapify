@@ -41,20 +41,20 @@ Swapify can be used either via the command line interface (CLI) OR the graphical
 
 2. Update the `old_playlist_uri` variable with the correct source playlist URI or ID.
 3. Run the script:
-   
+   ```
    -----> python swapify.py
-  
+   ```
 4. Follow the authentication flow in the console to authorize the script to access your Spotify account.
 5. Once authenticated, the script will transfer the playlist to your desired account. Progress will be displayed in the console.
 6. Enjoy your transferred playlist in the target Spotify account!
 
-                                        OR
+
 
 ### Graphical User Interface (GUI)
 1. Launch the GUI application by running the following command:
-
+   ```
    -----> python swapifyGUI.py
-
+   ```
 3. The GUI will prompt you to enter your Spotify Developer credentials:
    - Client ID
    - Client Secret

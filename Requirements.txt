@@ -34,7 +34,7 @@ Thank you for choosing Swapify to transfer your Spotify playlists! Below is ever
    - Run the script using the following command:
    
      ```
-     python swap.py
+     python swapify.py
      ```
    
    - Follow the on-screen prompts and provide the necessary information such as the old playlist URI, new playlist name, and description.

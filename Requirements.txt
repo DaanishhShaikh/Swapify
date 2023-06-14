@@ -1,0 +1,48 @@
+**Swapify Usage Guide**
+
+Thank you for choosing Swapify to transfer your Spotify playlists! Below is everything you need to know to get started with the script.
+
+1. **Installation:**
+
+   - Ensure you have Python installed on your system (version 3.6 or above).
+   - Install the required dependencies by running the following command in your terminal:
+   
+     ```
+     pip install spotipy
+     ```
+   
+   - Download the Swapify script from the GitHub repository: [Swapify](https://github.com/YourUsername/Swapify)
+
+2. **Obtaining Spotify Credentials:**
+
+   - Visit the Spotify Developer Dashboard at [https://developer.spotify.com/dashboard](https://developer.spotify.com/dashboard) and log in with your Spotify account.
+   - Create a new application by clicking on the "Create an App" button.
+   - Provide a name and description for your app, and agree to the terms of service.
+   - Once the app is created, you'll see your app's dashboard. Note down the **Client ID** and **Client Secret**.
+   - In the app's settings, add a redirect URI. This can be any valid URL (e.g., `http://localhost:8888/callback`).
+   
+3. **Configuring Swapify:**
+
+   - Open the Swapify script in a text editor.
+   - Replace the placeholder values in the `client_id`, `client_secret`, and `redirect_uri` variables with your Spotify app's credentials.
+   - Adjust the desired scope of access for your Spotify account by modifying the `scope` variable.
+   
+4. **Running the Script:**
+
+   - Open a terminal or command prompt.
+   - Navigate to the directory where the Swapify script is located.
+   - Run the script using the following command:
+   
+     ```
+     python swap.py
+     ```
+   
+   - Follow the on-screen prompts and provide the necessary information such as the old playlist URI, new playlist name, and description.
+   - Swapify will handle the authentication and transfer process for you. Once completed, it will display a success message.
+   
+5. **Enjoying Your Transferred Playlists:**
+
+   - Log in to the destination Spotify account to access the newly transferred playlists.
+   - Verify that the playlists have been successfully transferred with the specified name and description.
+
+That's it! You now have all the information you need to use Swapify effectively. Should you encounter any issues or have further questions, please refer to the documentation or reach out to the script's developer. Happy playlist swapping!
